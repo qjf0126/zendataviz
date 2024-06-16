@@ -1,0 +1,66 @@
+  /* global.css */
+  @font-face {
+    font-family: 'MaShanZheng';
+    src: url('./assets/font/MaShanZheng-Regular.ttf') format('truetype');
+  }
+
+  body {
+    font-family: 'MaShanZheng', sans-serif;
+  }
+  
+  .Map {
+    text-align: center;
+    width: 60%;
+  }
+  
+  .tableauPlaceholder {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-button {
+    width: 40px;
+    height: 40px;
+    margin: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #9C755F; /* 示例颜色 */
+    font-size: 18px;
+    border: 2px solid #9C755F; /* 边框颜色 */
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+  .nav-button.active {
+    background-color: #9C755F; /* 活动状态颜色 */
+    color: white;
+  }
+
+  .nav-button:hover {
+    background-color: #8FBFBF; /* 活动状态颜色 */
+    border: 2px solid #8FBFBF; /* 边框颜色 */
+    color: white;
+  }
+  
+  .section {
+    height: 100vh; /* 每个部分占据整个视口高度 */
+  }
+  
+  .echarts-series-tree .node-image {
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  
+  
+  

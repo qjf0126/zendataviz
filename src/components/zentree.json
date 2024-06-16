@@ -1,0 +1,612 @@
+{
+    "name": "达摩祖师",
+    "category": "禅宗",
+    "birth_year": 382,
+    "death_year": 536,
+    "image": "/img/达摩祖师像.png",
+    "children": [
+        {
+            "name": "慧可（二祖）",
+            "teacher": "达摩祖师",
+            "category": "禅宗",
+            "birth_year": 487,
+            "death_year": 593,
+            "image": "/img/二祖像.png",
+            "children": [
+                {
+                    "name": "僧璨（三祖）",
+                    "teacher": "慧可（二祖）",
+                    "category": "禅宗",
+                    "birth_year": null,
+                    "death_year": null,
+                    "image": "/img/三祖像.png",
+                    "children": [
+                        {
+                            "name": "道信（四祖）",
+                            "teacher": "僧璨（三祖）",
+                            "category": "禅宗",
+                            "birth_year": 580,
+                            "death_year": 651,
+                            "image": "/img/四祖像.png",
+                            "children": [
+                                {
+                                    "name": "弘忍（五祖）",
+                                    "teacher": "道信（四祖）",
+                                    "category": "禅宗",
+                                    "birth_year": 601,
+                                    "death_year": 675,
+                                    "image": "/img/五祖像.png",
+                                    "children": [
+                                        {
+                                            "name": "神秀",
+                                            "teacher": "弘忍（五祖）",
+                                            "category": "禅宗",
+                                            "birth_year": 606,
+                                            "death_year": 706,
+                                            "image": "/img/神秀像.png"
+                                        },
+                                        {
+                                            "name": "惠能（六祖）",
+                                            "teacher": "弘忍（五祖）",
+                                            "category": "禅宗",
+                                            "birth_year": 638,
+                                            "death_year": 713,
+                                            "image": "/img/六祖像.png",
+                                            "children": [
+                                                {
+                                                    "name": "南岳怀让",
+                                                    "teacher": "惠能（六祖）",
+                                                    "category": "禅宗",
+                                                    "birth_year": 677,
+                                                    "death_year": 744,
+                                                    "children": [
+                                                        {
+                                                            "name": "汝州报本",
+                                                            "teacher": "南岳怀让",
+                                                            "category": "禅宗",
+                                                            "birth_year": null,
+                                                            "death_year": null
+                                                        },
+                                                        {
+                                                            "name": "南阳慧忠",
+                                                            "teacher": "南岳怀让",
+                                                            "category": "禅宗",
+                                                            "birth_year": null,
+                                                            "death_year": null
+                                                        },
+                                                        {
+                                                            "name": "睦州道明",
+                                                            "teacher": "南岳怀让",
+                                                            "category": "禅宗",
+                                                            "birth_year": null,
+                                                            "death_year": null
+                                                        },
+                                                        {
+                                                            "name": "道峻",
+                                                            "teacher": "南岳怀让",
+                                                            "category": "禅宗",
+                                                            "birth_year": null,
+                                                            "death_year": null
+                                                        },
+                                                        {
+                                                            "name": "神照",
+                                                            "teacher": "南岳怀让",
+                                                            "category": "禅宗",
+                                                            "birth_year": null,
+                                                            "death_year": null,
+                                                            "children": [
+                                                                {
+                                                                    "name": "潮州大颠",
+                                                                    "teacher": "神照",
+                                                                    "category": "禅宗",
+                                                                    "birth_year": 732,
+                                                                    "death_year": 824
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "马祖道一",
+                                                            "teacher": "南岳怀让",
+                                                            "category": "禅宗（洪州宗）",
+                                                            "birth_year": 688,
+                                                            "death_year": 763,
+                                                            "children": [
+                                                                {
+                                                                    "name": "大梅法常 ",
+                                                                    "teacher": "马祖道一",
+                                                                    "category": "禅宗（洪州宗）",
+                                                                    "birth_year": null,
+                                                                    "death_year": null
+                                                                },
+                                                                {
+                                                                    "name": "西堂智藏",
+                                                                    "teacher": "马祖道一",
+                                                                    "category": "禅宗（洪州宗）",
+                                                                    "birth_year": 738,
+                                                                    "death_year": 817
+                                                                },
+                                                                {
+                                                                    "name": "南泉普愿",
+                                                                    "teacher": "马祖道一",
+                                                                    "category": "禅宗（洪州宗）",
+                                                                    "birth_year": null,
+                                                                    "death_year": null,
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "长沙景岑",
+                                                                            "teacher": "南泉普愿",
+                                                                            "category": "禅宗（洪州宗）",
+                                                                            "birth_year": 788,
+                                                                            "death_year": 868
+                                                                        },
+                                                                        {
+                                                                            "name": "赵州从谂",
+                                                                            "teacher": "南泉普愿",
+                                                                            "category": "禅宗（洪州宗）",
+                                                                            "birth_year": 778,
+                                                                            "death_year": 897,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "新兴严阳",
+                                                                                    "teacher": "赵州从谂",
+                                                                                    "category": "禅宗（洪州宗）",
+                                                                                    "birth_year": null,
+                                                                                    "death_year": null
+                                                                                },
+                                                                                {
+                                                                                    "name": "光孝慧觉",
+                                                                                    "teacher": "赵州从谂",
+                                                                                    "category": "禅宗（洪州宗）",
+                                                                                    "birth_year": null,
+                                                                                    "death_year": null
+                                                                                },
+                                                                                {
+                                                                                    "name": "益州西睦",
+                                                                                    "teacher": "赵州从谂",
+                                                                                    "category": "禅宗（洪州宗）",
+                                                                                    "birth_year": null,
+                                                                                    "death_year": null
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "name": "百丈怀海",
+                                                                    "teacher": "马祖道一",
+                                                                    "category": "禅宗（洪州宗）",
+                                                                    "birth_year": 749,
+                                                                    "death_year": 814,
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "伪山灵佑",
+                                                                            "teacher": "百丈怀海",
+                                                                            "category": "伪仰宗",
+                                                                            "birth_year": null,
+                                                                            "death_year": null,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "仰山慧寂",
+                                                                                    "teacher": "伪山灵佑",
+                                                                                    "category": "伪仰宗",
+                                                                                    "birth_year": null,
+                                                                                    "death_year": null,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "长芦宗赜",
+                                                                                            "teacher": "仰山慧寂",
+                                                                                            "category": "曹洞宗",
+                                                                                            "birth_year": null,
+                                                                                            "death_year": null,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "真歇清了",
+                                                                                                    "teacher": "长芦宗赜",
+                                                                                                    "category": "曹洞宗",
+                                                                                                    "birth_year": null,
+                                                                                                    "death_year": null,
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "雪窦智鉴",
+                                                                                                            "teacher": "真歇清了",
+                                                                                                            "category": "曹洞宗",
+                                                                                                            "birth_year": 1105,
+                                                                                                            "death_year": 1192,
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "天童如净",
+                                                                                                                    "teacher": "雪窦智鉴",
+                                                                                                                    "category": "曹洞宗",
+                                                                                                                    "birth_year": null,
+                                                                                                                    "death_year": null,
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "道元禅师",
+                                                                                                                            "teacher": "天童如净",
+                                                                                                                            "category": "曹洞宗",
+                                                                                                                            "birth_year": null,
+                                                                                                                            "death_year": null
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "name": "法海禅师",
+                                                                                    "teacher": "伪山灵佑",
+                                                                                    "category": "伪仰宗",
+                                                                                    "birth_year": null,
+                                                                                    "death_year": null
+                                                                                },
+                                                                                {
+                                                                                    "name": "香严智闲",
+                                                                                    "teacher": "伪山灵佑",
+                                                                                    "category": "伪仰宗",
+                                                                                    "birth_year": null,
+                                                                                    "death_year": null
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "黄蘗希运",
+                                                                            "teacher": "百丈怀海",
+                                                                            "category": "禅宗",
+                                                                            "birth_year": null,
+                                                                            "death_year": null,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "密庵禅师",
+                                                                                    "teacher": "黄蘗希运",
+                                                                                    "category": "禅宗（洪州宗）",
+                                                                                    "birth_year": null,
+                                                                                    "death_year": null,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "南岳慧通",
+                                                                                            "teacher": "密庵禅师",
+                                                                                            "category": "禅宗（洪州宗）",
+                                                                                            "birth_year": null,
+                                                                                            "death_year": null,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "龙兴慧通",
+                                                                                                    "teacher": "南岳慧通",
+                                                                                                    "category": "禅宗（洪州宗）",
+                                                                                                    "birth_year": null,
+                                                                                                    "death_year": null
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "name": "临济义玄",
+                                                                                    "teacher": "黄蘗希运",
+                                                                                    "category": "临济宗",
+                                                                                    "birth_year": null,
+                                                                                    "death_year": null,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "石霜楚圆",
+                                                                                            "teacher": "临济义玄",
+                                                                                            "category": "临济宗",
+                                                                                            "birth_year": 987,
+                                                                                            "death_year": 1040,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "杨岐方会",
+                                                                                                    "teacher": "石霜楚圆",
+                                                                                                    "category": "临济宗",
+                                                                                                    "birth_year": null,
+                                                                                                    "death_year": null,
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "保宁仁勇",
+                                                                                                            "teacher": "杨岐方会",
+                                                                                                            "category": "临济宗",
+                                                                                                            "birth_year": null,
+                                                                                                            "death_year": null
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "name": "白云守端",
+                                                                                                            "teacher": "杨岐方会",
+                                                                                                            "category": "临济宗",
+                                                                                                            "birth_year": 1025,
+                                                                                                            "death_year": 1072,
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "云盖智本",
+                                                                                                                    "teacher": "白云守端",
+                                                                                                                    "category": "临济宗",
+                                                                                                                    "birth_year": null,
+                                                                                                                    "death_year": null
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "name": "五祖法演",
+                                                                                                                    "teacher": "白云守端",
+                                                                                                                    "category": "临济宗",
+                                                                                                                    "birth_year": null,
+                                                                                                                    "death_year": 1104,
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "圜悟克勤",
+                                                                                                                            "teacher": "五祖法演",
+                                                                                                                            "category": "临济宗",
+                                                                                                                            "birth_year": null,
+                                                                                                                            "death_year": null,
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "大慧宗杲",
+                                                                                                                                    "teacher": "圜悟克勤",
+                                                                                                                                    "category": "禅宗（洪州宗）",
+                                                                                                                                    "birth_year": null,
+                                                                                                                                    "death_year": null
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "name": "佛眼清远",
+                                                                                                                            "teacher": "五祖法演",
+                                                                                                                            "category": "临济宗",
+                                                                                                                            "birth_year": null,
+                                                                                                                            "death_year": null
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "name": "佛鉴慧勤",
+                                                                                                                            "teacher": "五祖法演",
+                                                                                                                            "category": "临济宗",
+                                                                                                                            "birth_year": null,
+                                                                                                                            "death_year": null
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "普化",
+                                                                                            "teacher": "临济义玄",
+                                                                                            "category": "临济宗",
+                                                                                            "birth_year": null,
+                                                                                            "death_year": null
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "虚云禅师",
+                                                                                            "teacher": "临济义玄",
+                                                                                            "category": "临济宗",
+                                                                                            "birth_year": null,
+                                                                                            "death_year": null,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "佛照守培",
+                                                                                                    "teacher": "虚云禅师",
+                                                                                                    "category": "临济宗",
+                                                                                                    "birth_year": null,
+                                                                                                    "death_year": null
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "永嘉玄觉",
+                                                    "teacher": "惠能（六祖）",
+                                                    "category": "禅宗",
+                                                    "birth_year": null,
+                                                    "death_year": null
+                                                },
+                                                {
+                                                    "name": "青原行思",
+                                                    "teacher": "惠能（六祖）",
+                                                    "category": "禅宗",
+                                                    "birth_year": 671,
+                                                    "death_year": 740,
+                                                    "children": [
+                                                        {
+                                                            "name": "智门光祚",
+                                                            "teacher": "青原行思",
+                                                            "category": "禅宗",
+                                                            "birth_year": null,
+                                                            "death_year": null
+                                                        },
+                                                        {
+                                                            "name": "永明延寿 ",
+                                                            "teacher": "青原行思",
+                                                            "category": "禅宗",
+                                                            "birth_year": null,
+                                                            "death_year": null
+                                                        },
+                                                        {
+                                                            "name": "石头希迁",
+                                                            "teacher": "青原行思",
+                                                            "category": "禅宗",
+                                                            "birth_year": 700,
+                                                            "death_year": 790,
+                                                            "children": [
+                                                                {
+                                                                    "name": "龙潭崇信",
+                                                                    "teacher": "石头希迁",
+                                                                    "category": "禅宗",
+                                                                    "birth_year": null,
+                                                                    "death_year": null,
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "慧南禅师",
+                                                                            "teacher": "龙潭崇信",
+                                                                            "category": "禅宗",
+                                                                            "birth_year": null,
+                                                                            "death_year": null,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "智贤禅师",
+                                                                                    "teacher": "慧南禅师",
+                                                                                    "category": "禅宗",
+                                                                                    "birth_year": null,
+                                                                                    "death_year": null
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "德山宣鉴",
+                                                                            "teacher": "龙潭崇信",
+                                                                            "category": "伪仰宗",
+                                                                            "birth_year": null,
+                                                                            "death_year": null
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "name": "药山惟俨",
+                                                                    "teacher": "石头希迁",
+                                                                    "category": "禅宗",
+                                                                    "birth_year": 751,
+                                                                    "death_year": 834,
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "云岩昙晟",
+                                                                            "teacher": "药山惟俨",
+                                                                            "category": "禅宗",
+                                                                            "birth_year": 782,
+                                                                            "death_year": 841,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "洞山良价",
+                                                                                    "teacher": "云岩昙晟",
+                                                                                    "category": "曹洞宗",
+                                                                                    "birth_year": 807,
+                                                                                    "death_year": 869,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "福州义玄",
+                                                                                            "teacher": "洞山良价",
+                                                                                            "category": "曹洞宗",
+                                                                                            "birth_year": null,
+                                                                                            "death_year": null,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "首山省念",
+                                                                                                    "teacher": "福州义玄",
+                                                                                                    "category": "曹洞宗",
+                                                                                                    "birth_year": 926,
+                                                                                                    "death_year": 993
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "雪峰义存",
+                                                                                            "teacher": "洞山良价",
+                                                                                            "category": "禅宗",
+                                                                                            "birth_year": 822,
+                                                                                            "death_year": 908,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "云门文偃",
+                                                                                                    "teacher": "雪峰义存",
+                                                                                                    "category": "云门宗",
+                                                                                                    "birth_year": null,
+                                                                                                    "death_year": null,
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "香林澄远",
+                                                                                                            "teacher": "云门文偃",
+                                                                                                            "category": "云门宗",
+                                                                                                            "birth_year": null,
+                                                                                                            "death_year": null
+                                                                                                        }
+                                                                                                    ]
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": "清凉文益",
+                                                                                                    "teacher": "雪峰义存",
+                                                                                                    "category": "法眼宗",
+                                                                                                    "birth_year": 885,
+                                                                                                    "death_year": 958,
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "景德传灯",
+                                                                                                            "teacher": "清凉文益",
+                                                                                                            "category": "法眼宗",
+                                                                                                            "birth_year": null,
+                                                                                                            "death_year": null
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "曹山本寂",
+                                                                                            "teacher": "洞山良价",
+                                                                                            "category": "曹洞宗",
+                                                                                            "birth_year": null,
+                                                                                            "death_year": null,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "涂州永安",
+                                                                                                    "teacher": "曹山本寂",
+                                                                                                    "category": "曹洞宗",
+                                                                                                    "birth_year": null,
+                                                                                                    "death_year": null
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "云盖智辩",
+                                                                                            "teacher": "洞山良价",
+                                                                                            "category": "曹洞宗",
+                                                                                            "birth_year": null,
+                                                                                            "death_year": null
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "荷泽神会",
+                                                    "teacher": "惠能（六祖）",
+                                                    "category": "禅宗",
+                                                    "birth_year": null,
+                                                    "death_year": null
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "法融",
+                                    "teacher": "道信（四祖）",
+                                    "category": "禅宗",
+                                    "birth_year": 594,
+                                    "death_year": 657,
+                                    "image": "/img/法融像.png"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

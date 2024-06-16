@@ -1,0 +1,18 @@
+{
+    "name": "弘忍（五祖）",
+    "image": "/img/五祖像.png",
+    "category": "禅宗",
+    "children": [
+      {
+        "name": "神秀",
+        "image": "/img/神秀像.png",
+        "category": "禅宗"
+      },
+      {
+        "name": "惠能（六祖）",
+        "image": "/img/六祖像.png",
+        "category": "禅宗"
+      }
+    ]
+  }
+  
