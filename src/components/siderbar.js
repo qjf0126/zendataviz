@@ -15,10 +15,6 @@ function Sidebar() {
       });
     };
   
-    const handleClick = (sectionId) => {
-      document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
-    };
-  
     useEffect(() => {
       window.addEventListener('scroll', handleScroll);
       return () => {
