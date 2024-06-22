@@ -1,0 +1,62 @@
+{
+    "name": "南岳怀让",
+    "teacher": "惠能（六祖）",
+    "category": "禅宗",
+    "birth_year": 677,
+    "death_year": 744,
+    "image": "/img/南岳怀让像.png",
+    "children": [
+        {
+            "name": "神照",
+            "teacher": "南岳怀让",
+            "category": "禅宗",
+            "birth_year": null,
+            "death_year": null,
+            "image": "/img/null.png",
+            "children": [
+                {
+                    "name": "潮州大颠",
+                    "teacher": "神照",
+                    "category": "禅宗",
+                    "birth_year": 732,
+                    "death_year": 824,
+                    "image": "/img/null.png"
+                }
+            ]
+        },
+        {
+            "name": "马祖道一",
+            "teacher": "南岳怀让",
+            "category": "禅宗（洪州宗）",
+            "birth_year": 688,
+            "death_year": 763,
+            "image": "/img/马祖道一像.png",
+            "children": [
+                {
+                    "name": "大梅法常 ",
+                    "teacher": "马祖道一",
+                    "category": "禅宗（洪州宗）",
+                    "birth_year": null,
+                    "death_year": null,
+                    "image": "/img/null.png"
+                },
+                {
+                    "name": "西堂智藏",
+                    "teacher": "马祖道一",
+                    "category": "禅宗（洪州宗）",
+                    "birth_year": 738,
+                    "death_year": 817,
+                    "image": "/img/null.png"
+                },
+                {
+                    "name": "南泉普愿",
+                    "teacher": "马祖道一",
+                    "category": "禅宗（洪州宗）",
+                    "birth_year": 748,
+                    "death_year": 834,
+                    "image": "/img/南泉普愿像.png"
+                }
+            ]
+        }
+    ]
+}

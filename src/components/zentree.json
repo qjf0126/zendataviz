@@ -59,35 +59,8 @@
                                                     "category": "禅宗",
                                                     "birth_year": 677,
                                                     "death_year": 744,
+                                                    "image": "/img/南岳怀让像.png",
                                                     "children": [
-                                                        {
-                                                            "name": "汝州报本",
-                                                            "teacher": "南岳怀让",
-                                                            "category": "禅宗",
-                                                            "birth_year": null,
-                                                            "death_year": null
-                                                        },
-                                                        {
-                                                            "name": "南阳慧忠",
-                                                            "teacher": "南岳怀让",
-                                                            "category": "禅宗",
-                                                            "birth_year": null,
-                                                            "death_year": null
-                                                        },
-                                                        {
-                                                            "name": "睦州道明",
-                                                            "teacher": "南岳怀让",
-                                                            "category": "禅宗",
-                                                            "birth_year": null,
-                                                            "death_year": null
-                                                        },
-                                                        {
-                                                            "name": "道峻",
-                                                            "teacher": "南岳怀让",
-                                                            "category": "禅宗",
-                                                            "birth_year": null,
-                                                            "death_year": null
-                                                        },
                                                         {
                                                             "name": "神照",
                                                             "teacher": "南岳怀让",
@@ -110,6 +83,7 @@
                                                             "category": "禅宗（洪州宗）",
                                                             "birth_year": 688,
                                                             "death_year": 763,
+                                                            "image": "/img/马祖道一像.png",
                                                             "children": [
                                                                 {
                                                                     "name": "大梅法常 ",
@@ -402,6 +376,34 @@
                                                                     ]
                                                                 }
                                                             ]
+                                                        },
+                                                        {
+                                                            "name": "汝州报本",
+                                                            "teacher": "南岳怀让",
+                                                            "category": "禅宗",
+                                                            "birth_year": null,
+                                                            "death_year": null
+                                                        },
+                                                        {
+                                                            "name": "南阳慧忠",
+                                                            "teacher": "南岳怀让",
+                                                            "category": "禅宗",
+                                                            "birth_year": null,
+                                                            "death_year": null
+                                                        },
+                                                        {
+                                                            "name": "睦州道明",
+                                                            "teacher": "南岳怀让",
+                                                            "category": "禅宗",
+                                                            "birth_year": null,
+                                                            "death_year": null
+                                                        },
+                                                        {
+                                                            "name": "道峻",
+                                                            "teacher": "南岳怀让",
+                                                            "category": "禅宗",
+                                                            "birth_year": null,
+                                                            "death_year": null
                                                         }
                                                     ]
                                                 },
@@ -410,7 +412,8 @@
                                                     "teacher": "惠能（六祖）",
                                                     "category": "禅宗",
                                                     "birth_year": null,
-                                                    "death_year": null
+                                                    "death_year": null,
+                                                    "image": "/img/永嘉玄觉像.png"
                                                 },
                                                 {
                                                     "name": "青原行思",
@@ -418,6 +421,7 @@
                                                     "category": "禅宗",
                                                     "birth_year": 671,
                                                     "death_year": 740,
+                                                    "image": "/img/青原行思像.png",
                                                     "children": [
                                                         {
                                                             "name": "智门光祚",
@@ -439,6 +443,7 @@
                                                             "category": "禅宗",
                                                             "birth_year": 700,
                                                             "death_year": 790,
+                                                            "image": "/img/石头希迁像.png",
                                                             "children": [
                                                                 {
                                                                     "name": "龙潭崇信",
@@ -588,7 +593,8 @@
                                                     "teacher": "惠能（六祖）",
                                                     "category": "禅宗",
                                                     "birth_year": null,
-                                                    "death_year": null
+                                                    "death_year": null,
+                                                    "image": "/img/荷泽神会像.png"
                                                 }
                                             ]
                                         }

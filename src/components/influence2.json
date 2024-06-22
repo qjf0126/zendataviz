@@ -1,0 +1,825 @@
+{
+    "name": "",
+    "itemStyle": {"color":"#F2F1ED"},
+    "children": [
+        {
+            "name": "皇帝",
+            "itemStyle": {"color":"#C3AB9D"},
+            "children": [
+                { 
+                    "name": "梁武帝", 
+                    "value": 1, 
+                    "year": "464-549",
+                    "dynasty": "南朝",
+                    "position": "皇帝",
+                    "description": "?",
+                    "avatar": "img/梁武帝像.png",
+                    "itemStyle": {"color":"#C3AB9D"}
+                },
+                { 
+                    "name": "傅大士", 
+                    "value": 1,
+                    "year": "464-549",
+                    "dynasty": "南朝",
+                    "position": "皇帝",
+                    "description": "?",
+                    "avatar": "img/傅大士像.png",
+                    "itemStyle": {"color":"#C3AB9D"}
+                },
+                { 
+                    "name": "杨坚", 
+                    "value": 1,
+                    "year": "541-604",
+                    "dynasty": "隋朝",
+                    "position": "皇帝",
+                    "description": "?",
+                    "avatar": "img/杨坚像.png",
+                    "itemStyle": {"color":"#C3AB9D"}
+                },
+                { 
+                    "name": "杨广", 
+                    "value": 1,
+                    "year": "569-618",
+                    "dynasty": "隋朝",
+                    "position": "皇帝",
+                    "description": "?",
+                    "avatar": "img/杨广像.png",
+                    "itemStyle": {"color":"#C3AB9D"}
+                },
+                { 
+                    "name": "李世民", 
+                    "value": 1,
+                    "year": "598-649",
+                    "dynasty": "唐朝",
+                    "position": "皇帝",
+                    "description": "?",
+                    "avatar": "img/李世民像.png",
+                    "itemStyle": {"color":"#C3AB9D"}
+                },
+                { 
+                    "name": "武则天", 
+                    "value": 1,
+                    "year": "624-705",
+                    "dynasty": "唐朝",
+                    "position": "皇帝",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#C3AB9D"}
+                },
+                { 
+                    "name": "李隆基", 
+                    "value": 1,
+                    "year": "685-762",
+                    "dynasty": "唐朝",
+                    "position": "皇帝",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#C3AB9D"}
+                },
+                { 
+                    "name": "赵匡胤", 
+                    "value": 1,
+                    "year": "927-976",
+                    "dynasty": "宋朝",
+                    "position": "皇帝",
+                    "description": "?",
+                    "avatar": "img/赵匡胤像.png",
+                    "itemStyle": {"color":"#C3AB9D"}
+                },
+                { 
+                    "name": "赵恒", 
+                    "value": 1,
+                    "year": "968-1022",
+                    "dynasty": "宋朝",
+                    "position": "皇帝",
+                    "description": "?",
+                    "avatar": "img/赵恒像.png",
+                    "itemStyle": {"color":"#C3AB9D"}
+                }
+            ]
+        },
+        {
+            "name": "文人",
+            "itemStyle": {"color":"#ACD3CF"},
+            "children": [
+                { 
+                    "name": "陶弘景", 
+                    "value": 1,
+                    "year": "456-536",
+                    "dynasty": "南朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/陶弘景像.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "柳顾言", 
+                    "value": 1,
+                    "year": "542-610",
+                    "dynasty": "隋朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "薛道衡", 
+                    "value": 1,
+                    "year": "540-609",
+                    "dynasty": "隋朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/薛道衡像.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "卢思道", 
+                    "value": 1,
+                    "year": "531-582",
+                    "dynasty": "隋朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/卢思道像.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "费长房", 
+                    "value": 1,
+                    "year": "562-597",
+                    "dynasty": "隋朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/费长房像.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "白居易", 
+                    "value": 1,
+                    "year": "772-846",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "柳宗元", 
+                    "value": 1,
+                    "year": "773-819",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "韩愈", 
+                    "value": 1,
+                    "year": "768-824",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "李泌", 
+                    "value": 1,
+                    "year": "722-789",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "王维", 
+                    "value": 1,
+                    "year": "699-759",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "杜牧", 
+                    "value": 1,
+                    "year": "803-852",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "李白", 
+                    "value": 1,
+                    "year": "701-762",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "孟浩然", 
+                    "value": 1,
+                    "year": "689-740",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "崔颢", 
+                    "value": 1,
+                    "year": "704-754",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "李商隐", 
+                    "value": 1,
+                    "year": "813-858",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "刘禹锡", 
+                    "value": 1,
+                    "year": "772-842",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "裴休", 
+                    "value": 1,
+                    "year": "797-870",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "王忠嗣", 
+                    "value": 1,
+                    "year": "706-749",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "杨炯", 
+                    "value": 1,
+                    "year": "650-693",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "王勃", 
+                    "value": 1,
+                    "year": "650-676",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "贺知章", 
+                    "value": 1,
+                    "year": "659-744",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "元稹", 
+                    "value": 1,
+                    "year": "779-831",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "裴子野", 
+                    "value": 1,
+                    "year": "465-531",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "张若虚", 
+                    "value": 1,
+                    "year": "660-720",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "韦应物", 
+                    "value": 1,
+                    "year": "737-792",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "韩偓", 
+                    "value": 1,
+                    "year": "844-923",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "王建", 
+                    "value": 1,
+                    "year": "767-830",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "温庭筠", 
+                    "value": 1,
+                    "year": "812-866",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "杜甫", 
+                    "value": 1,
+                    "year": "712-770",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "贾岛", 
+                    "value": 1,
+                    "year": "779-843",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "刘长卿", 
+                    "value": 1,
+                    "year": "709-780",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "司空图", 
+                    "value": 1,
+                    "year": "837-908",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "卢仝", 
+                    "value": 1,
+                    "year": "795-835",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "皎然", 
+                    "value": 1,
+                    "year": "?-828",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "陆羽", 
+                    "value": 1,
+                    "year": "733-804",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "陆龟蒙", 
+                    "value": 1,
+                    "year": "?-881",
+                    "dynasty": "唐朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "欧阳修", 
+                    "value": 1,
+                    "year": "1007-1072",
+                    "dynasty": "宋朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "苏轼", 
+                    "value": 1,
+                    "year": "1037-1101",
+                    "dynasty": "宋朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/苏轼像.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "张商英", 
+                    "value": 1,
+                    "year": "1043-1122",
+                    "dynasty": "宋朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "黄庭坚", 
+                    "value": 1,
+                    "year": "1045-1105",
+                    "dynasty": "宋朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "司马光", 
+                    "value": 1,
+                    "year": "1019-1086",
+                    "dynasty": "宋朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "陆游", 
+                    "value": 1,
+                    "year": "1125-1210",
+                    "dynasty": "宋朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "辛弃疾", 
+                    "value": 1,
+                    "year": "1140-1207",
+                    "dynasty": "宋朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                },
+                { 
+                    "name": "杨万里", 
+                    "value": 1,
+                    "year": "1127-1206",
+                    "dynasty": "宋朝",
+                    "position": "文人",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#ACD3CF"}
+                }
+            ]
+        },
+        {
+            "name": "将领",
+            "itemStyle": {"color":"#94AEC8"},
+            "children": [
+                { 
+                    "name": "高士达", 
+                    "value": 1,
+                    "year": "557-616",
+                    "dynasty": "隋朝",
+                    "position": "将领",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#94AEC8"}
+                },
+                { 
+                    "name": "郭子仪", 
+                    "value": 1,
+                    "year": "697-781",
+                    "dynasty": "唐朝",
+                    "position": "将领",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#94AEC8"}
+                },
+                { 
+                    "name": "李光弼", 
+                    "value": 1,
+                    "year": "708-764",
+                    "dynasty": "唐朝",
+                    "position": "将领",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#94AEC8"}
+                },
+                { 
+                    "name": "薛仁贵", 
+                    "value": 1,
+                    "year": "614-683",
+                    "dynasty": "唐朝",
+                    "position": "将领",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#94AEC8"}
+                },
+                { 
+                    "name": "王忠嗣", 
+                    "value": 1,
+                    "year": "706-749",
+                    "dynasty": "唐朝",
+                    "position": "将领",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#94AEC8"}
+                },
+                { 
+                    "name": "程咬金", 
+                    "value": 1,
+                    "year": "?-665",
+                    "dynasty": "唐朝",
+                    "position": "将领",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#94AEC8"}
+                },
+                { 
+                    "name": "狄青", 
+                    "value": 1,
+                    "year": "1008-1057",
+                    "dynasty": "宋朝",
+                    "position": "将领",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#94AEC8"}
+                },
+                { 
+                    "name": "岳飞", 
+                    "value": 1,
+                    "year": "1103-1142",
+                    "dynasty": "宋朝",
+                    "position": "将领",
+                    "description": "?",
+                    "avatar": "img/岳飞像.png",
+                    "itemStyle": {"color":"#94AEC8"}
+                },
+                { 
+                    "name": "韩世忠", 
+                    "value": 1,
+                    "year": "1089-1151",
+                    "dynasty": "宋朝",
+                    "position": "将领",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#94AEC8"}
+                },
+                { 
+                    "name": "吴璘", 
+                    "value": 1,
+                    "year": "1104-1167",
+                    "dynasty": "宋朝",
+                    "position": "将领",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#94AEC8"}
+                },
+                { 
+                    "name": "张俊", 
+                    "value": 1,
+                    "year": "1097-1164",
+                    "dynasty": "宋朝",
+                    "position": "将领",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#94AEC8"}
+                }
+            ]
+        },
+        {
+            "name": "宰相",
+            "itemStyle": {"color":"#93CE94"},
+            "children": [
+                { 
+                    "name": "裴休", 
+                    "value": 1,
+                    "year": "797-870",
+                    "dynasty": "唐朝",
+                    "position": "宰相",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#93CE94"}
+                },
+                { 
+                    "name": "张说", 
+                    "value": 1,
+                    "year": "667-730",
+                    "dynasty": "唐朝",
+                    "position": "宰相",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#93CE94"}
+                },
+                { 
+                    "name": "张九龄", 
+                    "value": 1,
+                    "year": "678-740",
+                    "dynasty": "唐朝",
+                    "position": "宰相",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#93CE94"}
+                },
+                { 
+                    "name": "王安石", 
+                    "value": 1,
+                    "year": "1021-1086",
+                    "dynasty": "宋朝",
+                    "position": "宰相",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#93CE94"}
+                },
+                { 
+                    "name": "范仲淹", 
+                    "value": 1,
+                    "year": "989-1052",
+                    "dynasty": "宋朝",
+                    "position": "宰相",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#93CE94"}
+                },
+                { 
+                    "name": "吕蒙正", 
+                    "value": 1,
+                    "year": "944-1011",
+                    "dynasty": "宋朝",
+                    "position": "宰相",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#93CE94"}
+                },
+                { 
+                    "name": "寇准", 
+                    "value": 1,
+                    "year": "961-1023",
+                    "dynasty": "宋朝",
+                    "position": "宰相",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#93CE94"}
+                },
+                { 
+                    "name": "范纯仁", 
+                    "value": 1,
+                    "year": "1027-1101",
+                    "dynasty": "宋朝",
+                    "position": "宰相",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#93CE94"}
+                },
+                { 
+                    "name": "蔡京", 
+                    "value": 1,
+                    "year": "1047-1126",
+                    "dynasty": "宋朝",
+                    "position": "宰相",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#93CE94"}
+                },
+                { 
+                    "name": "吕大防", 
+                    "value": 1,
+                    "year": "1027-1097",
+                    "dynasty": "宋朝",
+                    "position": "宰相",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#93CE94"}
+                },
+                { 
+                    "name": "韩琦", 
+                    "value": 1,
+                    "year": "1008-1075",
+                    "dynasty": "宋朝",
+                    "position": "宰相",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#93CE94"}
+                }
+            ]
+        },
+        {
+            "name": "官员",
+            "itemStyle": {"color":"#FEC3C8"},
+            "children": [
+                { 
+                    "name": "贾至", 
+                    "value": 1,
+                    "year": "718-772",
+                    "dynasty": "唐朝",
+                    "position": "官员",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#FEC3C8"}
+                },
+                { 
+                    "name": "裴璘", 
+                    "value": 1,
+                    "year": "734-805",
+                    "dynasty": "唐朝",
+                    "position": "官员",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#FEC3C8"}
+                },
+                { 
+                    "name": "王夫", 
+                    "value": 1,
+                    "year": "1079-1126",
+                    "dynasty": "宋朝",
+                    "position": "官员",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#FEC3C8"}
+                },
+                { 
+                    "name": "王安中", 
+                    "value": 1,
+                    "year": "1037-1105",
+                    "dynasty": "宋朝",
+                    "position": "官员",
+                    "description": "?",
+                    "avatar": "img/null.png",
+                    "itemStyle": {"color":"#FEC3C8"}
+                }
+            ]
+        }
+    ]
+}

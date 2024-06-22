@@ -3,12 +3,15 @@ import * as echarts from 'echarts';
 import '../App.css'; // 新增数据文件
 import zenData from './zentree.json'; // 确保数据文件的路径正确
 import zentree2Data from './zentree2.json'; // 新增数据文件
+import zentree3Data from './zentree3.json'; // 新增数据文件
+import { ArrowRightCircle } from 'react-bootstrap-icons';
+
 
 function ZenTree() {
   const chartRef = useRef(null);
   const [currentDescription, setCurrentDescription] = useState('');
   const [currentTitle, setCurrentTitle] = useState('');
-  const [initialTreeDepth, setInitialTreeDepth] = useState(5); // 默认初始展开层级为5
+  const [initialTreeDepth, setInitialTreeDepth] = useState(6); // 默认初始展开层级为5
 
   useEffect(() => {
     const chart = echarts.init(chartRef.current);
@@ -39,9 +42,9 @@ function ZenTree() {
       },
       {
         time: '洪州禅（8AD）',
-        data: zenData, // 初始数据
-        description: '洪州宗阶段的描述文本。',
-        title: '洪州宗'
+        data: zentree3Data, // 使用新的数据文件
+        description: '8世纪后期至9世纪中期的一百多年是南宗迅速兴起的时期。在这期间最引人注目的宗教文化现象是南岳怀让－马祖禅系和青原行思－石头希迁禅系从湘、赣两个流域崛起，迅速传播到各地，并且在各地形成很多传法中心。洪州宗与石头宗并列为唐代禅宗两大派系之一，由六祖惠能门下分出。始于南岳怀让禅师，但它的实际建立者，为洪州道一法师。下开临济、沩仰二宗。',
+        title: '洪州禅'
       },
       {
         time: '一花五叶（9~10AD）',
@@ -115,7 +118,7 @@ function ZenTree() {
           data: [transformData(data)],
           left: '20%',
           right: '10%',
-          top: '40%',
+          top: '45%',
           initialTreeDepth: treeDepth, // 使用动态的初始展开层级
           label: {
             position: 'bottom', // 将文字放在节点下方
@@ -230,35 +233,69 @@ function ZenTree() {
     };
   }, [initialTreeDepth]);
 
+  const scrollToRelationshipSection = () => {
+    const relationshipsection = document.getElementById('relationshipsection');
+    if (relationshipsection) {
+      relationshipsection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', width: '100%' }}>
-      <div style={{ width: '75%', height: '100%', position: 'relative', paddingBottom:'400px' }}>
-        <div ref={chartRef} style={{ width: '100%', height: '100%' }}></div>
-        <div style={{ position: 'absolute', top: '400px', left: '250px' }}>
-          <label htmlFor="depth-select">选择展开层级: </label>
-          <select
-            id="depth-select"
-            value={initialTreeDepth}
-            onChange={(e) => setInitialTreeDepth(parseInt(e.target.value, 10))}
-          >
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-            <option value="13">13</option>
-            <option value="14">14</option>
-            <option value="15">15</option>
-            <option value="16">16</option>
-          </select>
-        </div>
+    <div style={{ justifyContent: 'center', alignItems: 'center', width: '100%' }}>
+      <div style={{ height: '100vh', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#F2F1ED'}}>
+        <div id="story-intro-section" className="story-section story-intro-section">
+            <div className="story-content">
+              <h1>二、禅宗的法脉与传承</h1>
+              <p>
+                禅宗的发展可以追溯到佛教传入中国以及印度禅宗的传播。南朝时期，达摩祖师来到中国传法，禅宗在中国生根发芽；南北朝时期，惠能和神秀分别创立了禅宗的南北两派，禅宗开始在思维的碰撞中丰富发展；唐宋时期，禅宗枝繁叶茂，分化出不同的宗派，代表人物有曹洞宗的五祖洞山，以及临济宗的一祖石头希达。之后禅宗由僧侣最澄和空海等人传入日本，并在日本京都等地发展壮大，形成了日本禅宗的独特体系，并对日本的文化和思想产生了深远影响。这五个阶段构成了禅宗法脉的传承与发展，为禅宗在中国乃至世界的传播奠定了坚实的基础。接下来我们将探索禅宗的法脉与传承，见证这一人类历史上最深刻的哲学体系的发展。
+              </p>
+            </div>
+            <button className="scroll-down-arrow" onClick={scrollToRelationshipSection}>
+              <ArrowRightCircle />
+            </button>
+          </div>
       </div>
-      <div style={{ width: '25%', height: '100%', padding: '20px', overflowY: 'auto', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-        <h2>{currentTitle}</h2>
-        <p style={{paddingRight:'80px', lineHeight:'1.5', fontSize:'18px'}}>{currentDescription}</p>
+      <div id='relationshipsection' style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', height: '100vh'}}>
+        <div style={{ width: '75%', height: '100%', position: 'relative', paddingBottom:'320px' }}>
+          <div ref={chartRef} style={{ width: '100%', height: '100%' }}></div>
+          <div style={{ position: 'absolute', top: '350px', left: '250px' }}>
+            <label htmlFor="depth-select">选择展开层级：</label>
+            <select
+              id="depth-select"
+              value={initialTreeDepth}
+              onChange={(e) => setInitialTreeDepth(parseInt(e.target.value, 10))}
+            >
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+            </select>
+          </div>
+          <div style={{ position: 'absolute', left: '250px', top: '380px', display:'flex' }}>
+            <p style={{marginRight:'5px'}}>禅宗宗派：</p>
+            <p><span style={{ backgroundColor: 'rgba(156, 117, 95, 0.6)', padding: '2px 10px', margin:'5px', borderRadius: '4px' }}>禅宗</span></p>
+            <p><span style={{ backgroundColor: 'rgba(76, 175, 80, 0.6)', padding: '2px 10px', margin:'5px', borderRadius: '4px' }}>洪州宗</span></p>
+            <p><span style={{ backgroundColor: 'rgba(78, 121, 167, 0.6)', padding: '2px 10px', margin:'5px', borderRadius: '4px' }}>曹洞宗</span></p>
+            <p><span style={{ backgroundColor: 'rgba(118, 183, 178, 0.6)', padding: '2px 10px', margin:'5px', borderRadius: '4px' }}>临济宗</span></p>
+            <p><span style={{ backgroundColor: 'rgba(255, 157, 167, 0.6)', padding: '2px 10px', margin:'5px', borderRadius: '4px' }}>法眼宗</span></p>
+            <p><span style={{ backgroundColor: 'rgba(186, 176, 172, 0.6)', padding: '2px 10px', margin:'5px', borderRadius: '4px' }}>云门宗</span></p>
+            <p><span style={{ backgroundColor: 'rgba(170, 170, 127, 0.6)', padding: '2px 10px', margin:'5px', borderRadius: '4px' }}>伪仰宗</span></p>
+          </div>
+          <div style={{ position: 'absolute', left: '1040px', top: '885px' }}>
+            <p style={{marginRight:'5px', color: 'rgba(156, 117, 95)'}}>点击人物节点可展开图表</p>
+          </div>
+        </div>
+        <div style={{ width: '25%', height: '100%', padding: '20px', overflowY: 'auto', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+          <h2 style={{color:'#333'}}>{currentTitle}</h2>
+          <p style={{paddingRight:'80px', lineHeight:'1.5', fontSize:'18px',color:'#666'}}>{currentDescription}</p>
+        </div>
       </div>
     </div>
   );

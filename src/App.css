@@ -4,10 +4,142 @@
     src: url('./assets/font/MaShanZheng-Regular.ttf') format('truetype');
   }
 
+  @font-face {
+    font-family: 'AaMeiRenZhuan';
+    src: url('./assets/font/AaMeiRenZhuan（JianFan）-2.ttf') format('truetype');
+  }
+
   body {
     font-family: 'MaShanZheng', sans-serif;
+    background-color: #FCFCFA;
+  }
+
+
+  /* intro.css */
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #fff;
   }
   
+  .intro-header h1 {
+    font-size: 2.5rem; /* 放大英文标题 */
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .intro-main h2 {
+    font-size: 5rem; /* 放大中文标题 */
+    font-weight: bold;
+    margin: 60px 0 40px 0;
+    color:#333
+  }
+  
+  .intro-main p {
+    font-size: 2rem;
+    margin: 10px 0 20px 0;
+    font-family: 'Times New Roman', Times, serif ;
+    color:#666
+  }
+  
+  .intro-buttons .quiz-button {
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-family: 'MaShanZheng', sans-serif;
+    background-color: #7F6556;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 60px;
+  }
+  
+  .intro-footer p {
+    margin: 20px 0 0 0;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .intro-footer p a {
+    text-decoration: none;
+    color: #7F6556;
+  }
+  
+
+  /* directory.css */
+  .directory-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 居中对齐 */
+    height: 80%;
+    width: 100%;
+    background-color: #F2F1ED;
+    color: #666;
+  }
+  
+  .vertical-text {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row; /* 使四个标题横向排列 */
+  }
+  
+  .vertical-text div {
+    writing-mode: vertical-rl; /* 竖向排列 */
+    font-size: 2rem;
+    margin: 0 2rem; /* 增加横向间距 */
+  }   
+
+
+  /* story.css */
+  .story-intro-section {
+    border-radius: 8px;
+    padding: 40px 400px 40px 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .story-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .story-content p {
+    font-size: 1.25rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .story-content h1 {
+      font-size: 2rem;
+    }
+  
+    .story-content p {
+      font-size: 1rem;
+    }
+  }
+
+  .scroll-down-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 2rem; /* 变大 */
+    transform: rotate(90deg); /* 旋转90度 */
+    color: #D5CFCB;
+    margin-top: 100px;
+  }
+  
+  /* map.css */
   .Map {
     text-align: center;
     width: 60%;
