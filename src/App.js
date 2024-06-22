@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Introsection } from './components/intro';
 import { Directory } from './components/directory';
 import { Relationshipmap } from './components/relationshipmap';
