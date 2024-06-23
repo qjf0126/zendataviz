@@ -5,11 +5,11 @@ import '../App.css';
 const images = [
   require('../assets/img/达摩祖师.jpg'),
   require('../assets/img/陆羽.png'),
-  require('../assets/img/慧可禅师（二祖）.jpg'),
   require('../assets/img/道信（四祖）.jpg'),
   require('../assets/img/本无树2.png'),
   require('../assets/img/禅宗诗文2.png'),
   require('../assets/img/禅宗诗文3.jpg'),
+  require('../assets/img/慧可禅师（二祖）.jpg'),
   require('../assets/img/禅宗绘画1.png'),
   require('../assets/img/禅宗绘画3.png'),
   require('../assets/img/禅宗绘画4.png'),
