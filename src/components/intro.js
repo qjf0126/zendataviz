@@ -34,7 +34,7 @@ const Intro = () => {
 
   return (
     <div className="intro-container">
-      <a href="https://github.com/yourusername/yourrepository" className="github-link" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/qjf0126/zendataviz" className="github-link" target="_blank" rel="noopener noreferrer">
         <p>view the project in github</p>
         <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" className="github-icon" />
       </a>
