@@ -2,10 +2,10 @@ import React from 'react';
 import '../App.css'; // 引入自定义的CSS文件
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 
-const scrollToRelationshipSection = () => {
-  const relationshipsection = document.getElementById('relationshipsection');
-  if (relationshipsection) {
-    relationshipsection.scrollIntoView({ behavior: 'smooth' });
+const scrollToDirectory = () => {
+  const directory = document.getElementById('directory');
+  if (directory) {
+    directory.scrollIntoView({ behavior: 'smooth' });
   }
 };
 
@@ -22,7 +22,7 @@ const Intro = () => {
           <button className="quiz-button">什么是禅宗</button>
         </div>
       </main>
-      <button className="scroll-down-arrow" onClick={scrollToRelationshipSection}>
+      <button className="scroll-down-arrow" onClick={scrollToDirectory}>
         <ArrowRightCircle />
       </button>
     </div>

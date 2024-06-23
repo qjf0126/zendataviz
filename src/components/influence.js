@@ -5,7 +5,14 @@ import influence2 from './influence2.json';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 const Influence = () => {
-  const [selectedPerson, setSelectedPerson] = useState(null); // 用于存储当前选中的人物信息
+  const [selectedPerson, setSelectedPerson] = useState({   
+    name: '梁武帝',
+    year: '464-549',
+    dynasty: '南朝',
+    position: '皇帝',
+    description: '佛教支持者，达摩祖师与梁武帝的对话成为了禅宗著名的公案。尔时武帝问：“如何是圣谛第一义?”师日：“廓然无圣。”帝日：“对联者谁?”师日：“不识。”又问：“朕自登九五已来，度人造寺，写经造像，有何功德?”师日：“无功德。”帝日：“何以无功德?”师曰：“此是人天小果，有漏之因，如影随形。虽有善因，非是实相。”武帝问：“如何是真功德?”师曰：“净智妙圆，体自空寂。如是功德，不以世求。”武帝不了达摩所言，变容不言。达摩其年十月十九日，自知机不契，则潜过江北，入于魏邦。（据《祖堂集》卷二）',
+    avatar: 'img/梁武帝像.png'
+  }); // 默认选中梁武帝); // 用于存储当前选中的人物信息
   const [dataSource, setDataSource] = useState('朝代'); // 用于存储当前选择的数据来源
   const [data, setData] = useState(influence); // 默认使用 influence.json 作为数据来源
 
@@ -167,6 +174,9 @@ const Influence = () => {
               按照职业划分
             </label>
           </div>
+        </div>
+        <div style={{ textAlign: 'center', color: '#aaa', position: 'absolute', top: '780px', left: '780px', zIndex: 1 }}>
+          <p>点击图表中的人物以查看详细信息</p>
         </div>
         <div style={{ width: '70%' }}>
           <ReactEcharts

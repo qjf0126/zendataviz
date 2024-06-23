@@ -90,7 +90,52 @@
     writing-mode: vertical-rl; /* 竖向排列 */
     font-size: 2rem;
     margin: 0 2rem; /* 增加横向间距 */
-  }   
+  }
+  
+  /* overview.css */
+  .overview-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 300px 0 300px;
+    height:100%;
+  }
+  
+  .overview-content {
+    width: 55%;
+  }
+  
+  .overview-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color:#333;
+  }
+  
+  .overview-content p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color:#666;
+  }
+  
+  .image-matrix {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .image-matrix img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* 添加过渡效果 */
+  }
+  
+  .image-matrix img:hover {
+    transform: scale(1.5); /* 鼠标悬停时放大 */
+  }
+  
+  
 
 
   /* story.css */

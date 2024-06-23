@@ -1,6 +1,7 @@
 import React from 'react';
 import { Introsection } from './components/intro';
 import { Directory } from './components/directory';
+import { Overviewsection } from './components/overview';
 import { Relationshipmap } from './components/relationshipmap';
 import { Influencemap } from './components/influence';
 import { Map } from './components/map';
@@ -10,10 +11,13 @@ function App() {
 
   return (
     <div className="App">
-      <div id="section-I" className="section" data-section="I">
-        <Introsection />
+      <Introsection />
+      <div id="directory" className="section">
+        <Directory />
       </div>
-      <Directory />
+      <div id="section-I" className="section" data-section="I">
+        <Overviewsection />
+      </div>
       <div id="section-II" className="section" data-section="II" style={{ height: '200vh', width: '100%' }}>
         <Relationshipmap />
       </div>

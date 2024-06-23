@@ -2,10 +2,10 @@ import React from 'react';
 import '../App.css';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 
-const scrollToMapSection = () => {
-  const mapSection = document.getElementById('mapsection');
-  if (mapSection) {
-    mapSection.scrollIntoView({ behavior: 'smooth' });
+const scrollToOverview = () => {
+  const Overview = document.getElementById('section-I');
+  if (Overview) {
+    Overview.scrollIntoView({ behavior: 'smooth' });
   }
 };
 
@@ -22,7 +22,7 @@ const DirectoryPage = () => {
           <div>五、数据来源</div>
         </div>
       </div>
-      <button className="scroll-down-arrow" onClick={scrollToMapSection} style={{marginLeft:'48%', marginRight:'48%', marginTop:'0'}}>
+      <button className="scroll-down-arrow" onClick={scrollToOverview} style={{marginLeft:'48%', marginRight:'48%', marginTop:'0'}}>
         <ArrowRightCircle />
       </button>
     </div>
