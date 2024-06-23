@@ -42,7 +42,7 @@
                     "year": "598-649",
                     "dynasty": "唐朝",
                     "position": "皇帝",
-                    "description": "?",
+                    "description": "重视禅宗，支持禅宗的发展，与玄奘法师交流佛教思想。唐僧师徒赴西天取经，一路历经艰辛，降妖除魔，这段神话成就了经典《西游记》。在真实的历史中，玄奘法师远赴印度的经历同样闻名中外，唐太宗李世民对其推崇赞赏有加，成为佛法在中原的一段佳话。",
                     "avatar": "img/李世民像.png",
                     "itemStyle": {"color":"#C3AB9D"}
                 },
@@ -128,7 +128,7 @@
                     "year": "540-609",
                     "dynasty": "隋朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "对佛教深有研究。前往钟山开善寺参访，引申出“金刚怒目、菩萨低眉”的典故。",
                     "avatar": "img/薛道衡像.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -138,7 +138,7 @@
                     "year": "531-582",
                     "dynasty": "隋朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "其诗歌作品中体现禅宗佛学的影响。",
                     "avatar": "img/卢思道像.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -148,7 +148,7 @@
                     "year": "562-597",
                     "dynasty": "隋朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "隋文帝开皇元年于长安设置译场，因费长房精通佛学，被敕召入京，并以俗人身份被委任为翻经学士，此后在大兴善寺担任笔受工作。",
                     "avatar": "img/费长房像.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -158,7 +158,7 @@
                     "year": "772-846",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "唐代著名诗人，诗作中多次提及禅宗思想。",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
                 { 
@@ -167,7 +167,7 @@
                     "year": "773-819",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "唐代文学家，与白居易等人同为新乐府运动的代表人物，诗文中常有禅意。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -177,7 +177,7 @@
                     "year": "768-824",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "唐代著名文学家，对禅宗有批评也有反思。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -187,7 +187,7 @@
                     "year": "722-789",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "唐代著名学者，对佛教有深入研究，特别是禅宗。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -197,7 +197,7 @@
                     "year": "699-759",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "唐代著名诗人，素有“诗佛”之称，诗作中多次提及禅宗思想。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -207,7 +207,7 @@
                     "year": "803-852",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "唐代著名诗人，诗作中多次提及禅宗思想。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -217,7 +217,7 @@
                     "year": "701-762",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "唐代著名诗人，作品中有禅宗思想的影子，与禅僧有过交流。如《宿清溪主人》反映了李白从宦海、尘俗中解脱出来而倾心于艺的一种禅悦心态。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -227,7 +227,7 @@
                     "year": "689-740",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "唐代著名诗人，诗作中有禅意。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -237,7 +237,7 @@
                     "year": "704-754",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "唐代诗人，诗作中有禅意。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -247,7 +247,7 @@
                     "year": "813-858",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "唐代著名诗人，诗作中有禅意。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -257,7 +257,7 @@
                     "year": "772-842",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "唐代著名诗人，诗作中有禅意。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -267,7 +267,7 @@
                     "year": "797-870",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "与禅僧交往，受禅宗思想影响。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -287,7 +287,7 @@
                     "year": "650-693",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "初唐四杰之一，诗作中有禅意。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -297,7 +297,7 @@
                     "year": "650-676",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "初唐四杰之一，诗作中有禅意。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -307,7 +307,7 @@
                     "year": "659-744",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "初唐著名诗人，诗作中有禅意。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -317,7 +317,7 @@
                     "year": "779-831",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "中唐著名诗人，诗作中有禅意。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -327,7 +327,7 @@
                     "year": "465-531",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "作品中反映对佛教和禅宗思想的思考。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -337,7 +337,7 @@
                     "year": "660-720",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "初唐著名诗人，诗作中有禅意。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -347,7 +347,7 @@
                     "year": "737-792",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "中唐著名诗人，诗作中有禅意。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -357,7 +357,7 @@
                     "year": "844-923",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "晚唐著名诗人，诗作中有禅意。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -367,7 +367,7 @@
                     "year": "767-830",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "中唐著名诗人，诗作中有禅意。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -377,7 +377,7 @@
                     "year": "812-866",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "晚唐著名诗人，诗作中常有禅宗思想的体现，对禅理有深刻理解。《秋夜寄丘员外》：“不入秋庭鸟，空闻夜雨声。”反映了禅宗的无常观念。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -387,7 +387,7 @@
                     "year": "712-770",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "唐代著名诗人，被誉为“诗圣”，诗作中有禅意。诗作中有不少涉及禅宗思想，《游龙门奉先寺》：“禅居多灵迹，水木有清华。”",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -397,7 +397,7 @@
                     "year": "779-843",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "中唐著名诗人，诗作中有禅意。作品中充满禅宗思想，被称为“苦吟诗人”。《寻隐者不遇》：“只在此山中，云深不知处。”表现出对禅宗隐逸生活的向往。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -407,7 +407,7 @@
                     "year": "709-780",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "中唐著名诗人，诗作中有禅意。诗作中有禅宗思想的表达，与多位禅师有过交流。《寻南溪常道士》：“白云流水处，寂寞无人行。”反映禅宗的清静无为。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -417,7 +417,7 @@
                     "year": "837-908",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "晚唐著名诗人，诗作中有禅意。作品中有很多禅宗思想的影子，对禅理有深刻体会。《二十四诗品》：“天机云锦，任运随心。”表现出禅宗的自然无为观念。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -427,7 +427,7 @@
                     "year": "795-835",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "中唐著名诗人，诗作中有禅意。作品中充满禅宗思想，表现出对禅宗的深刻理解。《走笔谢孟谏议寄新茶》：“一碗喉吻润，二碗破孤闷。”表现出禅宗的修行之道。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -437,7 +437,7 @@
                     "year": "?-828",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "禅宗信徒，诗作中充满了禅宗思想，被称为“诗僧”。《寻陆鸿渐不遇》：“移居近东海，隐迹在春山。”表现出禅宗的隐逸生活。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -447,8 +447,8 @@
                     "year": "733-804",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
-                    "avatar": "img/null.png",
+                    "description": "唐代著名茶学家，所著《茶经》对后世影响深远。推动禅茶文化的发展。在竟陵寺时因智积禅师有茶癖，陆羽常为他煮茶，并从禅师那儿学会了种茶、制茶和饮茶的各种技艺。后著《茶经》，《茶经》是中国乃至世界现存最早、最完整、最全面介绍茶的专著，被誉为茶叶百科全书。",
+                    "avatar": "img/陆羽像.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
                 { 
@@ -457,7 +457,7 @@
                     "year": "?-881",
                     "dynasty": "唐朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "晚唐著名诗人，诗作中有禅意。陆龟蒙性嗜茶，唐代温庭筠《采茶录》中记载：“甫里先生陆龟蒙，嗜茶也。置小园于顾渚山下，赍岁入茶租，薄为瓯蚁之费。自为品第书一篇，继《茶经》、《茶诀》之后。”",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -467,7 +467,7 @@
                     "year": "1007-1072",
                     "dynasty": "宋朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "宋代著名文学家、学者，对禅宗有深入研究。支持佛教，特别是禅宗，常与禅僧交流。与苏轼等禅宗信徒交往密切，诗文中体现禅宗思想。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -477,7 +477,7 @@
                     "year": "1037-1101",
                     "dynasty": "宋朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "宋代著名文学家、诗人，对禅宗有深入理解，诗文中多次提及禅意。与多位禅宗高僧有密切交往，诗文中体现了深刻的禅宗思想。与佛印禅师有深厚友谊，诗作《题西林壁》反映了禅宗“见性成佛”的思想。",
                     "avatar": "img/苏轼像.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -487,7 +487,7 @@
                     "year": "1043-1122",
                     "dynasty": "宋朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "宋代学者，对禅宗有深入研究。与临济宗杨岐派下的禅师克勤禅师相交甚笃；大慧宗杲的启蒙师父湛堂文准禅师逝世，为了礼请张商英撰写塔铭，宗杲因而主动求见张商英。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -497,7 +497,7 @@
                     "year": "1045-1105",
                     "dynasty": "宋朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "宋代著名文学家、诗人，对禅宗有深入理解，与多位禅僧有深厚交往，诗文中多次提及禅意。与苏轼共同探讨禅宗思想，诗作《寄黄几复》表现出禅宗的“顿悟”观念。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -507,7 +507,7 @@
                     "year": "1019-1086",
                     "dynasty": "宋朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "宋代著名历史学家，对禅宗有一定研究，与慧远禅师有过交流。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -517,7 +517,7 @@
                     "year": "1125-1210",
                     "dynasty": "宋朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "宋代著名诗人，对禅宗有一定理解，诗文中多次提及禅意。与多位禅僧有深厚交往，诗作《秋夜将晓出篱门迎凉有感二首》反映了禅宗的无常观念。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -527,7 +527,7 @@
                     "year": "1140-1207",
                     "dynasty": "宋朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "宋代著名词人，深受禅宗思想影响，词作中体现禅宗思想。词作《青玉案·元夕》表现了禅宗的“禅心清净”思想。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
@@ -537,7 +537,7 @@
                     "year": "1127-1206",
                     "dynasty": "宋朝",
                     "position": "文人",
-                    "description": "?",
+                    "description": "宋代著名诗人，对禅宗有一定理解，诗文中多次提及禅意。对径山寺的禅茶文化有所关注，也在其作品中反映了一些与茶有关的文化内涵。他的《茶录》中详细描述了茶的制作过程、品饮方法以及对茶文化的独特见解。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 }
@@ -623,7 +623,7 @@
                     "year": "1103-1142",
                     "dynasty": "宋朝",
                     "position": "将领",
-                    "description": "?",
+                    "description": "宋代著名将军，深受禅宗思想影响，常与禅僧交流。岳飞驻军江州期间，常到庐山东林寺礼佛参禅，并特请该寺主持高僧慧海上人，二人论佛谈禅，来往密切；禅宗大师大慧宗杲反对杀岳飞而被流放至湖南衡阳一带。",
                     "avatar": "img/岳飞像.png",
                     "itemStyle": {"color":"#94AEC8"}
                 },
@@ -699,8 +699,8 @@
                     "year": "1021-1086",
                     "dynasty": "宋朝",
                     "position": "宰相",
-                    "description": "?",
-                    "avatar": "img/null.png",
+                    "description": "宋代著名政治家、文学家，对禅宗有一定研究。支持佛教，特别是禅宗，常与禅僧交流，诗文中体现禅宗思想。与黄庭坚等禅宗信徒交往密切，诗作《明妃曲二首》体现禅宗“无常”观念。",
+                    "avatar": "img/王安石像.png",
                     "itemStyle": {"color":"#93CE94"}
                 },
                 { 
@@ -834,7 +834,7 @@
                     "dynasty": "宋朝",
                     "position": "画家",
                     "description": "北宋米芾对禅学也有深刻地参悟，他号“鹿门居士”，他说：“山水古今相师，少有出格者，因信笔作之，多以烟云掩映树石，意似便已。”（《画史》）其“米家山水”朦胧幽寂、苍茫迷远与禅的寂静幽深、无为清旷颇为一致。",
-                    "avatar": "img/null.png",
+                    "avatar": "img/米芾像.png",
                     "itemStyle": {"color":"#CBCBB0"}
                 },
                 { 

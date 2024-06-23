@@ -10,7 +10,8 @@
       "children": [
         {
           "name": "禅宗北派",
-          "category": "派别"
+          "category": "禅宗",
+          "image": "/img/北宗.png"
         }
       ]
     },
@@ -20,7 +21,9 @@
       "category": "禅宗",
       "children": [
         {
-          "name": "禅宗南派"
+          "name": "禅宗南派",
+          "category": "禅宗",
+          "image": "/img/南宗.png"
         }
       ]
     }
