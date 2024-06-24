@@ -22,7 +22,7 @@
                     "year": "541-604",
                     "dynasty": "隋朝",
                     "position": "皇帝",
-                    "description": "?",
+                    "description": "隋文帝杨坚笃信佛学，大力弘扬佛法。效仿阿育王大量建造禅寺。",
                     "avatar": "img/杨坚像.png",
                     "itemStyle": {"color":"#C3AB9D"}
                 },
@@ -32,7 +32,7 @@
                     "year": "569-618",
                     "dynasty": "隋朝",
                     "position": "皇帝",
-                    "description": "?",
+                    "description": "智顗禅师（天台宗创始人）为他授菩萨戒，法号“总持菩萨”，他也敬赠“智者大师”名号，相惜之情，传为历史上一段佳话。",
                     "avatar": "img/杨广像.png",
                     "itemStyle": {"color":"#C3AB9D"}
                 },
@@ -52,7 +52,7 @@
                     "year": "624-705",
                     "dynasty": "唐朝",
                     "position": "皇帝",
-                    "description": "?",
+                    "description": "中国历史上唯一的女皇帝，对佛教尤其是禅宗有较大的支持，曾邀请禅师入宫讲法。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#C3AB9D"}
                 },
@@ -62,7 +62,7 @@
                     "year": "685-762",
                     "dynasty": "唐朝",
                     "position": "皇帝",
-                    "description": "?",
+                    "description": "唐玄宗李隆基，推崇佛教，对禅宗发展也有一定贡献。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#C3AB9D"}
                 },
@@ -72,7 +72,7 @@
                     "year": "927-976",
                     "dynasty": "宋朝",
                     "position": "皇帝",
-                    "description": "?",
+                    "description": "宋朝的开国皇帝，信奉佛教，积极支持禅宗发展。曾邀请禅宗高僧入宫讲经。",
                     "avatar": "img/赵匡胤像.png",
                     "itemStyle": {"color":"#C3AB9D"}
                 },
@@ -82,7 +82,7 @@
                     "year": "968-1022",
                     "dynasty": "宋朝",
                     "position": "皇帝",
-                    "description": "?",
+                    "description": "宋真宗赵恒，崇尚佛教，特别重视禅宗，曾邀请多位禅宗高僧入宫讲学。",
                     "avatar": "img/赵恒像.png",
                     "itemStyle": {"color":"#C3AB9D"}
                 }
@@ -198,7 +198,7 @@
                     "dynasty": "唐朝",
                     "position": "文人",
                     "description": "唐代著名诗人，素有“诗佛”之称，诗作中多次提及禅宗思想。",
-                    "avatar": "img/null.png",
+                    "avatar": "img/王维像.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
                 { 
@@ -218,7 +218,7 @@
                     "dynasty": "唐朝",
                     "position": "文人",
                     "description": "唐代著名诗人，作品中有禅宗思想的影子，与禅僧有过交流。如《宿清溪主人》反映了李白从宦海、尘俗中解脱出来而倾心于艺的一种禅悦心态。",
-                    "avatar": "img/null.png",
+                    "avatar": "img/李白像.png",
                     "itemStyle": {"color":"#ACD3CF"}
                 },
                 { 
@@ -553,7 +553,7 @@
                     "year": "557-616",
                     "dynasty": "隋朝",
                     "position": "将领",
-                    "description": "?",
+                    "description": "与禅宗高僧智顗有过多次交流，对禅宗有深入了解。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#94AEC8"}
                 },
@@ -563,7 +563,7 @@
                     "year": "697-781",
                     "dynasty": "唐朝",
                     "position": "将领",
-                    "description": "?",
+                    "description": "唐代著名将军，与禅宗高僧有交流。安史之乱时郭子仪带兵征讨，迫需军饷。神会不忍苍生遭劫，为筹备军费而四处奔走、声援朝廷，将所获供养金钱悉捐为军饷之用。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#94AEC8"}
                 },
@@ -573,7 +573,7 @@
                     "year": "708-764",
                     "dynasty": "唐朝",
                     "position": "将领",
-                    "description": "?",
+                    "description": "唐代著名将军，与禅宗高僧有交流。在安史之乱期间曾与青原行思交流佛法，借鉴禅宗思想以安抚军心。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#94AEC8"}
                 },
@@ -583,7 +583,7 @@
                     "year": "614-683",
                     "dynasty": "唐朝",
                     "position": "将领",
-                    "description": "?",
+                    "description": "唐代著名将军，与神秀禅师有过交流，神秀的教义对薛仁贵的思想和行动产生了影响。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#94AEC8"}
                 },
@@ -593,7 +593,7 @@
                     "year": "706-749",
                     "dynasty": "唐朝",
                     "position": "将领",
-                    "description": "?",
+                    "description": "唐代著名将军，与禅宗高僧有交流。王忠嗣在军中推崇禅宗修行，马祖道一的教义对其影响深远。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#94AEC8"}
                 },
@@ -603,7 +603,7 @@
                     "year": "?-665",
                     "dynasty": "唐朝",
                     "position": "将领",
-                    "description": "?",
+                    "description": "唐代著名将军，与禅宗高僧有交流，受到玄奘法师思想影响。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#94AEC8"}
                 },
@@ -613,7 +613,7 @@
                     "year": "1008-1057",
                     "dynasty": "宋朝",
                     "position": "将领",
-                    "description": "?",
+                    "description": "宋代著名将军，受禅宗思想影响，常与禅僧交流，与慧远禅师有交往。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#94AEC8"}
                 },
@@ -633,7 +633,7 @@
                     "year": "1089-1151",
                     "dynasty": "宋朝",
                     "position": "将领",
-                    "description": "?",
+                    "description": "宋代著名将军，受禅宗思想影响，常与禅僧交流，与慧远禅师有交往。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#94AEC8"}
                 },
@@ -643,7 +643,7 @@
                     "year": "1104-1167",
                     "dynasty": "宋朝",
                     "position": "将领",
-                    "description": "?",
+                    "description": "宋朝名将，信奉佛教，崇尚禅宗思想，与宗杲禅师有交往。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#94AEC8"}
                 },
@@ -653,7 +653,7 @@
                     "year": "1097-1164",
                     "dynasty": "宋朝",
                     "position": "将领",
-                    "description": "?",
+                    "description": "宋代著名将军，和多位禅师过交往，《居士分灯录(卷下)．张浚传》，曾说︰“张魏公浚，字德远，南轩(张栻)之父，官右仆射兼知枢密院事，尝问道于圆悟”。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#94AEC8"}
                 }
@@ -669,7 +669,7 @@
                     "year": "797-870",
                     "dynasty": "唐朝",
                     "position": "宰相",
-                    "description": "?",
+                    "description": "唐代宰相，禅宗信徒。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#93CE94"}
                 },
@@ -679,7 +679,7 @@
                     "year": "667-730",
                     "dynasty": "唐朝",
                     "position": "宰相",
-                    "description": "?",
+                    "description": "唐代宰相，对禅宗有一定支持。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#93CE94"}
                 },
@@ -689,7 +689,7 @@
                     "year": "678-740",
                     "dynasty": "唐朝",
                     "position": "宰相",
-                    "description": "?",
+                    "description": "唐代宰相，对禅宗有一定支持。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#93CE94"}
                 },
@@ -709,8 +709,8 @@
                     "year": "989-1052",
                     "dynasty": "宋朝",
                     "position": "宰相",
-                    "description": "?",
-                    "avatar": "img/null.png",
+                    "description": "宋代著名政治家与文人，对禅宗有一定支持。崇尚禅宗思想，支持禅宗发展。与多位禅宗高僧交流，诗作《岳阳楼记》反映了禅宗的“无为而治”思想。",
+                    "avatar": "img/范仲淹像.png",
                     "itemStyle": {"color":"#93CE94"}
                 },
                 { 
@@ -719,7 +719,7 @@
                     "year": "944-1011",
                     "dynasty": "宋朝",
                     "position": "宰相",
-                    "description": "?",
+                    "description": "宋代著名宰相，崇尚佛教，支持禅宗发展。与佛印禅师有深厚友谊。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#93CE94"}
                 },
@@ -729,7 +729,7 @@
                     "year": "961-1023",
                     "dynasty": "宋朝",
                     "position": "宰相",
-                    "description": "?",
+                    "description": "宋代著名宰相，与多位禅宗僧人交往密切，积极推动禅宗的传播。与慧思禅师有过交流。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#93CE94"}
                 },
@@ -739,7 +739,7 @@
                     "year": "1027-1101",
                     "dynasty": "宋朝",
                     "position": "宰相",
-                    "description": "?",
+                    "description": "宋代著名宰相，崇尚禅宗思想，支持禅宗发展。与契嵩禅师有过交流。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#93CE94"}
                 },
@@ -749,7 +749,7 @@
                     "year": "1047-1126",
                     "dynasty": "宋朝",
                     "position": "宰相",
-                    "description": "?",
+                    "description": "宋代著名宰相，对禅宗有一定支持。崇尚佛教，与慧洪禅师有过交流。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#93CE94"}
                 },
@@ -759,7 +759,7 @@
                     "year": "1027-1097",
                     "dynasty": "宋朝",
                     "position": "宰相",
-                    "description": "?",
+                    "description": "宋代著名宰相，对禅宗有一定支持，与玄觉禅师有深厚交往。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#93CE94"}
                 },
@@ -769,7 +769,7 @@
                     "year": "1008-1075",
                     "dynasty": "宋朝",
                     "position": "宰相",
-                    "description": "?",
+                    "description": "宋代著名宰相，对禅宗有一定支持。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#93CE94"}
                 }
@@ -814,7 +814,7 @@
                     "dynasty": "唐朝",
                     "position": "画家",
                     "description": "唐代王维是禅画的先驱，他被董其昌尊为“南宗”之祖，这是借用了禅宗的名头。他字摩诘，取自《维摩诘经》中的维摩诘居士之名。王维的诗画作品如《辋川图》和《雪溪图》，通过描绘自然景观和田园生活，表现了禅宗“心与自然合一”的理念，他的诗句“行到水穷处，坐看云起时”被认为是禅宗思想的精髓。",
-                    "avatar": "img/null.png",
+                    "avatar": "img/王维像.png",
                     "itemStyle": {"color":"#CBCBB0"}
                 },
                 { 
@@ -869,7 +869,7 @@
                     "year": "718-772",
                     "dynasty": "唐朝",
                     "position": "官员",
-                    "description": "?",
+                    "description": "与禅僧交往频繁，受禅宗思想影响。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#FEC3C8"}
                 },
@@ -879,7 +879,7 @@
                     "year": "734-805",
                     "dynasty": "唐朝",
                     "position": "官员",
-                    "description": "?",
+                    "description": "与禅僧交往，受禅宗思想影响。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#FEC3C8"}
                 },
@@ -889,7 +889,7 @@
                     "year": "1079-1126",
                     "dynasty": "宋朝",
                     "position": "官员",
-                    "description": "?",
+                    "description": "崇尚禅宗，与慧安禅师有深厚交往。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#FEC3C8"}
                 },
@@ -899,7 +899,7 @@
                     "year": "1037-1105",
                     "dynasty": "宋朝",
                     "position": "官员",
-                    "description": "?",
+                    "description": "崇尚禅宗思想，与圆悟克勤禅师有深厚交往。",
                     "avatar": "img/null.png",
                     "itemStyle": {"color":"#FEC3C8"}
                 }

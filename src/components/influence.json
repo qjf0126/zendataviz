@@ -80,7 +80,7 @@
             "year": "557-616",
             "dynasty": "隋朝",
             "position": "将领",
-            "description":"与禅宗高僧智顗有过多次交流，对禅宗有深入了解",
+            "description":"与禅宗高僧智顗有过多次交流，对禅宗有深入了解。",
             "avatar": "img/null.png",
             "itemStyle": {"color":"#BADDAA"}
         },
@@ -163,6 +163,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "唐代著名诗人，诗作中多次提及禅宗思想。",
+            "avatar": "img/null.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -262,7 +263,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "唐代著名诗人，作品中有禅宗思想的影子，与禅僧有过交流。如《宿清溪主人》反映了李白从宦海、尘俗中解脱出来而倾心于艺的一种禅悦心态。",
-            "avatar": "img/null.png",
+            "avatar": "img/李白像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -562,7 +563,7 @@
             "dynasty": "唐朝",
             "position": "画家",
             "description": "唐代王维是禅画的先驱，他被董其昌尊为“南宗”之祖，这是借用了禅宗的名头。他字摩诘，取自《维摩诘经》中的维摩诘居士之名。王维的诗画作品如《辋川图》和《雪溪图》，通过描绘自然景观和田园生活，表现了禅宗“心与自然合一”的理念，他的诗句“行到水穷处，坐看云起时”被认为是禅宗思想的精髓。",
-            "avatar": "img/null.png",
+            "avatar": "img/王维像.png",
             "itemStyle": {"color":"#CBCBB0"}
         },
         { 
@@ -648,7 +649,7 @@
             "dynasty": "宋朝",
             "position": "宰相",
             "description": "宋代著名政治家与文人，对禅宗有一定支持。崇尚禅宗思想，支持禅宗发展。与多位禅宗高僧交流，诗作《岳阳楼记》反映了禅宗的“无为而治”思想。",
-            "avatar": "img/null.png",
+            "avatar": "img/范仲淹像.png",
             "itemStyle": {"color":"#ACD3CF"}
           },
           {
@@ -677,7 +678,7 @@
             "year": "1089-1151",
             "dynasty": "宋朝",
             "position": "将领",
-            "description": "宋代著名将军，崇尚禅宗思想，与慧洪禅师有交流。",
+            "description": "宋代著名将军，受禅宗思想影响，常与禅僧交流，与慧远禅师有交往。",
             "avatar": "img/null.png",
             "itemStyle": {"color":"#ACD3CF"}
           },
