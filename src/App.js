@@ -5,6 +5,7 @@ import { Overviewsection } from './components/overview';
 import { Relationshipmap } from './components/relationshipmap';
 import { Influencemap } from './components/influence';
 import { Map } from './components/map';
+import { Referencesection } from './components/reference';
 import { Siderbar } from './components/siderbar';
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
       </div>
       <div id="section-IV" className="section" data-section="IV" style={{ height: '200vh', width: '100%' }}>
         <Influencemap />
+      </div>
+      <div id="section-V" className="section" data-section="V" style={{ height: '100vh', width: '100%' }}>
+        <Referencesection />
       </div>
       <Siderbar />
     </div>
