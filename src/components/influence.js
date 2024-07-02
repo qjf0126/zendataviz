@@ -219,7 +219,7 @@ const Influence = () => {
       </div>
 
       <div id='influencesection' style={{ display: 'flex', alignItems: 'flex-start', width: '100%', height: '100vh', position: 'relative' }}>
-        <div style={{ position: 'absolute', top: '80px', left: '850px', zIndex: 1 }}>
+        <div style={{ position: 'absolute', top: '100px', left: '850px', zIndex: 1 }}>
           <div style={{ marginBottom: '20px', fontSize:'18px', color:'#666' }}>
             禅宗相关的非僧侣人物
           </div>
@@ -246,13 +246,13 @@ const Influence = () => {
             </label>
           </div>
         </div>
-        <div style={{ textAlign: 'center', color: '#aaa', position: 'absolute', top: '800px', left: '880px', zIndex: 1 }}>
+        <div style={{ textAlign: 'center', color: '#aaa', position: 'absolute', top: '810px', left: '880px', zIndex: 1 }}>
           <p>点击人物查看详细信息</p>
         </div>
         <div style={{ width: '75%', height: '100%' }}>
           <ReactEcharts
             option={getOption()}
-            style={{ height: '80%', width: '100%', marginBottom: '-60px' }}
+            style={{ height: '80%', width: '100%',paddingTop:'30px', marginBottom: '-80px' }}
             onEvents={{ 'click': handleChartClick }} // 注册点击事件处理函数
             onChartReady={onChartReady} // 注册图表加载完成事件
           />
@@ -275,6 +275,9 @@ const Influence = () => {
               <p>点击左侧图表中的人物以查看详细信息</p>
             </div>
           )}
+          <div style={{ color: '#aaa' }}>
+            <p>数据来源：维基百科，百度百科</p>
+          </div>
         </div>
       </div>
     </div>

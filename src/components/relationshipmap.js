@@ -295,6 +295,9 @@ function ZenTree() {
         <div style={{ width: '25%', height: '100%', padding: '20px', overflowY: 'auto', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
           <h2 style={{color:'#333'}}>{currentTitle}</h2>
           <p style={{paddingRight:'80px', lineHeight:'1.5', fontSize:'18px',color:'#666'}}>{currentDescription}</p>
+          <div style={{ color: '#aaa' }}>
+            <p>数据来源：维基百科，百度百科</p>
+          </div>
         </div>
       </div>
     </div>

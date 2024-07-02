@@ -1,5 +1,11 @@
 import React from 'react';
 import '../App.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
+// 导入文件
+import ZenDistribution from '../assets/data/禅宗祖庭分布.xlsx';
+import ZenRelations from '../assets/data/禅宗人物关系图谱.xlsx';
+import ZenNonMonkFigures from '../assets/data/禅宗相关人物.xlsx';
 
 const references = [
   {
@@ -20,17 +26,20 @@ const references = [
   {
     id: 4,
     title: '禅宗祖庭分布数据',
-    url: '/assets/data/table1.xlsx'
+    url: ZenDistribution,
+    download: true
   },
   {
     id: 5,
     title: '禅宗人物关系图谱数据',
-    url: '/assets/data/table2.xlsx'
+    url: ZenRelations,
+    download: true
   },
   {
     id: 6,
-    title: '禅宗相关非僧侣人物数据',
-    url: '/assets/data/table3.xlsx'
+    title: '禅宗相关人物数据',
+    url: ZenNonMonkFigures,
+    download: true
   }
 ];
 
@@ -42,6 +51,11 @@ const Reference = () => {
         {references.map((ref) => (
           <li key={ref.id} className="reference-item">
             <a href={ref.url} target="_blank" rel="noopener noreferrer">{ref.title}</a>
+            {ref.download && (
+              <a href={ref.url} download className="download-icon">
+                <i className="bi bi-download"></i>
+              </a>
+            )}
           </li>
         ))}
       </ul>
@@ -49,4 +63,6 @@ const Reference = () => {
   );
 };
 
-export {Reference as Referencesection};
+export { Reference as Referencesection };
+
+
