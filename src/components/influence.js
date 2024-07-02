@@ -5,16 +5,18 @@ import influence2 from './influence2.json';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 const Influence = () => {
-  const [selectedPerson, setSelectedPerson] = useState({   
+  const [selectedPerson, setSelectedPerson] = useState({
     name: '梁武帝',
     year: '464-549',
     dynasty: '南朝',
     position: '皇帝',
     description: '佛教支持者，达摩祖师与梁武帝的对话成为了禅宗著名的公案。尔时武帝问：“如何是圣谛第一义?”师日：“廓然无圣。”帝日：“对联者谁?”师日：“不识。”又问：“朕自登九五已来，度人造寺，写经造像，有何功德?”师日：“无功德。”帝日：“何以无功德?”师曰：“此是人天小果，有漏之因，如影随形。虽有善因，非是实相。”武帝问：“如何是真功德?”师曰：“净智妙圆，体自空寂。如是功德，不以世求。”武帝不了达摩所言，变容不言。达摩其年十月十九日，自知机不契，则潜过江北，入于魏邦。（据《祖堂集》卷二）',
     avatar: 'img/梁武帝像.png'
-  }); // 默认选中梁武帝); // 用于存储当前选中的人物信息
+  }); // 默认选中梁武帝
   const [dataSource, setDataSource] = useState('朝代'); // 用于存储当前选择的数据来源
   const [data, setData] = useState(influence); // 默认使用 influence.json 作为数据来源
+  const [selectedDynasty, setSelectedDynasty] = useState(null); // 存储当前选中的朝代
+  const [barColor, setBarColor] = useState('#B2A78F'); // 默认条形图颜色
 
   useEffect(() => {
     // 根据数据来源选择不同的 JSON 文件
@@ -23,6 +25,8 @@ const Influence = () => {
     } else {
       setData(influence2);
     }
+    setSelectedDynasty(null); // 重置选中的朝代或职业组
+    setBarColor('#B2A78F'); // 重置条形图颜色
   }, [dataSource]);
 
   const getOption = () => {
@@ -61,7 +65,7 @@ const Influence = () => {
       series: {
         type: 'sunburst',
         data: [processedData],
-        radius: [0, '100%'],
+        radius: [0, '80%'], // 调整圆盘图的尺寸
         label: {
           rotate: 'radial'
         },
@@ -104,19 +108,86 @@ const Influence = () => {
     };
   };
 
-  // 处理点击事件并设置选中的人物信息
+  const getBarOption = () => {
+    let barData;
+    if (dataSource === '朝代') {
+      let occupationData;
+      if (selectedDynasty) {
+        const dynastyData = data.children.find(dynasty => dynasty.name === selectedDynasty);
+        occupationData = dynastyData ? dynastyData.children.map(person => person.position) : [];
+      } else {
+        occupationData = data.children.flatMap(dynasty =>
+          dynasty.children.map(person => person.position)
+        );
+      }
+
+      const occupationCount = occupationData.reduce((acc, occupation) => {
+        acc[occupation] = (acc[occupation] || 0) + 1;
+        return acc;
+      }, {});
+
+      barData = {
+        xAxis: {
+          type: 'category',
+          data: Object.keys(occupationCount)
+        },
+        yAxis: {
+          type: 'value'
+        },
+        series: [{
+          data: Object.values(occupationCount),
+          type: 'bar',
+          itemStyle: {
+            color: barColor // 使用动态颜色
+          }
+        }]
+      };
+    } else {
+      let dynastyData;
+      if (selectedDynasty) {
+        const occupationGroup = data.children.find(group => group.name === selectedDynasty);
+        dynastyData = occupationGroup ? occupationGroup.children.map(person => person.dynasty) : [];
+      } else {
+        dynastyData = data.children.flatMap(group =>
+          group.children.map(person => person.dynasty)
+        );
+      }
+
+      const dynastyCount = dynastyData.reduce((acc, dynasty) => {
+        acc[dynasty] = (acc[dynasty] || 0) + 1;
+        return acc;
+      }, {});
+
+      barData = {
+        xAxis: {
+          type: 'category',
+          data: Object.keys(dynastyCount)
+        },
+        yAxis: {
+          type: 'value'
+        },
+        series: [{
+          data: Object.values(dynastyCount),
+          type: 'bar',
+          itemStyle: {
+            color: barColor // 使用动态颜色
+          }
+        }]
+      };
+    }
+
+    return barData;
+  };
+
   const handleChartClick = (params) => {
-    console.log('Event triggered'); // 调试输出，确认事件触发
-    console.log('Event params:', params); // 调试输出，查看事件参数
     if (params.data) {
-      console.log('Clicked node data:', params.data); // 调试输出，查看点击的节点数据
+      if (params.data.children && params.data.name) {
+        setSelectedDynasty(params.data.name); // 设置选中的朝代或职业组
+        setBarColor(params.data.itemStyle.color); // 设置条形图颜色为选中组的颜色
+      }
       if (params.data.avatar && params.data.description) {
         setSelectedPerson(params.data); // 设置选中的人物信息
-      } else {
-        console.log('Missing avatar or description:', params.data); // 调试输出，缺少 avatar 或 description
       }
-    } else {
-      console.log('Event data is missing'); // 调试输出，查看数据类型
     }
   };
 
@@ -147,8 +218,8 @@ const Influence = () => {
         </div>
       </div>
 
-      <div id='influencesection' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', height: '100vh', position: 'relative' }}>
-        <div style={{ position: 'absolute', top: '150px', left: '850px', zIndex: 1 }}>
+      <div id='influencesection' style={{ display: 'flex', alignItems: 'flex-start', width: '100%', height: '100vh', position: 'relative' }}>
+        <div style={{ position: 'absolute', top: '80px', left: '850px', zIndex: 1 }}>
           <div style={{ marginBottom: '20px', fontSize:'18px', color:'#666' }}>
             禅宗相关的非僧侣人物
           </div>
@@ -175,18 +246,22 @@ const Influence = () => {
             </label>
           </div>
         </div>
-        <div style={{ textAlign: 'center', color: '#aaa', position: 'absolute', top: '780px', left: '780px', zIndex: 1 }}>
-          <p>点击图表中的人物以查看详细信息</p>
+        <div style={{ textAlign: 'center', color: '#aaa', position: 'absolute', top: '800px', left: '880px', zIndex: 1 }}>
+          <p>点击人物查看详细信息</p>
         </div>
-        <div style={{ width: '70%' }}>
+        <div style={{ width: '75%', height: '100%' }}>
           <ReactEcharts
             option={getOption()}
-            style={{ height: '800px', width: '100%' }}
+            style={{ height: '80%', width: '100%', marginBottom: '-60px' }}
             onEvents={{ 'click': handleChartClick }} // 注册点击事件处理函数
             onChartReady={onChartReady} // 注册图表加载完成事件
           />
+          <ReactEcharts
+            option={getBarOption()}
+            style={{ height: '22%', width: '65%', margin: 'auto' }}
+          />
         </div>
-        <div style={{ width: '25%', height: '70%', padding: '20px 140px 40px 80px', overflowY: 'auto', borderLeft: '1px solid #ccc' }}>
+        <div style={{ width: '25%', height: '80%', padding: '20px 140px 40px 80px', overflowY: 'auto', borderLeft: '1px solid #ccc', margin: 'auto' }}>
           {selectedPerson ? (
             <div>
               <img src={selectedPerson.avatar} alt={selectedPerson.name} style={{ width: '60%', borderRadius: '8px', marginTop:'40px' }} /> {/* 显示人物头像 */}
@@ -207,6 +282,8 @@ const Influence = () => {
 };
 
 export { Influence as Influencemap };
+
+
 
 
 

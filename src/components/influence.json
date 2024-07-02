@@ -142,7 +142,7 @@
             "year": "624-705",
             "dynasty": "唐朝",
             "position": "皇帝",
-            "avatar": "img/null.png",
+            "avatar": "img/武则天像.png",
             "description": "中国历史上唯一的女皇帝，对佛教尤其是禅宗有较大的支持，曾邀请禅师入宫讲法。",
             "itemStyle": {"color":"#CBCBB0"}
           },
@@ -152,7 +152,7 @@
             "year": "685-762",
             "dynasty": "唐朝",
             "position": "皇帝",
-            "avatar": "img/null.png",
+            "avatar": "img/李隆基像.png",
             "description": "唐玄宗李隆基，推崇佛教，对禅宗发展也有一定贡献。",
             "itemStyle": {"color":"#CBCBB0"}
           },
@@ -163,7 +163,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "唐代著名诗人，诗作中多次提及禅宗思想。",
-            "avatar": "img/null.png",
+            "avatar": "img/白居易像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -173,7 +173,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "唐代文学家，与白居易等人同为新乐府运动的代表人物，诗文中常有禅意。",
-            "avatar": "img/null.png",
+            "avatar": "img/柳宗元像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -183,7 +183,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "唐代著名文学家，对禅宗有批评也有反思。",
-            "avatar": "img/null.png",
+            "avatar": "img/韩愈像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -193,7 +193,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "唐代著名学者，对佛教有深入研究，特别是禅宗。",
-            "avatar": "img/null.png",
+            "avatar": "img/李泌像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -203,7 +203,7 @@
             "dynasty": "唐朝",
             "position": "宰相",
             "description": "唐代宰相，禅宗信徒。",
-            "avatar": "img/null.png",
+            "avatar": "img/裴休像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -212,8 +212,8 @@
             "year": "699-759",
             "dynasty": "唐朝",
             "position": "文人",
-            "description": "唐代著名诗人，素有“诗佛”之称，诗作中多次提及禅宗思想。",
-            "avatar": "img/null.png",
+            "description": "唐代著名诗人，素有“诗佛”之称，诗作中多次提及禅宗思想。他的诗句“行到水穷处，坐看云起时”被认为是禅宗思想的精髓。",
+            "avatar": "img/王维像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -223,7 +223,7 @@
             "dynasty": "唐朝",
             "position": "宰相",
             "description": "唐代宰相，对禅宗有一定支持。",
-            "avatar": "img/null.png",
+            "avatar": "img/张说像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -233,7 +233,7 @@
             "dynasty": "唐朝",
             "position": "宰相",
             "description": "唐代宰相，对禅宗有一定支持。",
-            "avatar": "img/null.png",
+            "avatar": "img/张九龄像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -273,7 +273,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "唐代著名诗人，诗作中有禅意。",
-            "avatar": "img/null.png",
+            "avatar": "img/孟浩然像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -283,7 +283,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "唐代诗人，诗作中有禅意。",
-            "avatar": "img/null.png",
+            "avatar": "img/崔颢像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -293,7 +293,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "唐代著名诗人，诗作中有禅意。",
-            "avatar": "img/null.png",
+            "avatar": "img/李商隐像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -303,7 +303,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "唐代著名诗人，诗作中有禅意。",
-            "avatar": "img/null.png",
+            "avatar": "img/刘禹锡像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -323,7 +323,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "初唐四杰之一，诗作中有禅意。",
-            "avatar": "img/null.png",
+            "avatar": "img/杨炯像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -333,7 +333,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "初唐四杰之一，诗作中有禅意。",
-            "avatar": "img/null.png",
+            "avatar": "img/王勃像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -343,7 +343,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "初唐著名诗人，诗作中有禅意。",
-            "avatar": "img/null.png",
+            "avatar": "img/贺知章像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -353,7 +353,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "中唐著名诗人，诗作中有禅意。",
-            "avatar": "img/null.png",
+            "avatar": "img/元稹像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -373,7 +373,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "初唐著名诗人，诗作中有禅意。",
-            "avatar": "img/null.png",
+            "avatar": "img/张若虚像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -383,7 +383,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "中唐著名诗人，诗作中有禅意。",
-            "avatar": "img/null.png",
+            "avatar": "img/韦应物像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -413,7 +413,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "晚唐著名诗人，诗作中常有禅宗思想的体现，对禅理有深刻理解。《秋夜寄丘员外》：“不入秋庭鸟，空闻夜雨声。”反映了禅宗的无常观念。",
-            "avatar": "img/null.png",
+            "avatar": "img/温庭筠像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -423,7 +423,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "唐代著名诗人，被誉为“诗圣”，诗作中有禅意。诗作中有不少涉及禅宗思想，《游龙门奉先寺》：“禅居多灵迹，水木有清华。”",
-            "avatar": "img/null.png",
+            "avatar": "img/杜甫像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -433,7 +433,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "中唐著名诗人，诗作中有禅意。作品中充满禅宗思想，被称为“苦吟诗人”。《寻隐者不遇》：“只在此山中，云深不知处。”表现出对禅宗隐逸生活的向往。",
-            "avatar": "img/null.png",
+            "avatar": "img/贾岛像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -443,7 +443,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "中唐著名诗人，诗作中有禅意。诗作中有禅宗思想的表达，与多位禅师有过交流。《寻南溪常道士》：“白云流水处，寂寞无人行。”反映禅宗的清静无为。",
-            "avatar": "img/null.png",
+            "avatar": "img/刘长卿像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -463,7 +463,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "中唐著名诗人，诗作中有禅意。作品中充满禅宗思想，表现出对禅宗的深刻理解。《走笔谢孟谏议寄新茶》：“一碗喉吻润，二碗破孤闷。”表现出禅宗的修行之道。",
-            "avatar": "img/null.png",
+            "avatar": "img/卢仝像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -473,7 +473,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "禅宗信徒，诗作中充满了禅宗思想，被称为“诗僧”。《寻陆鸿渐不遇》：“移居近东海，隐迹在春山。”表现出禅宗的隐逸生活。",
-            "avatar": "img/null.png",
+            "avatar": "img/皎然像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -493,7 +493,7 @@
             "dynasty": "唐朝",
             "position": "文人",
             "description": "晚唐著名诗人，诗作中有禅意。陆龟蒙性嗜茶，唐代温庭筠《采茶录》中记载：“甫里先生陆龟蒙，嗜茶也。置小园于顾渚山下，赍岁入茶租，薄为瓯蚁之费。自为品第书一篇，继《茶经》、《茶诀》之后。”",
-            "avatar": "img/null.png",
+            "avatar": "img/陆龟蒙像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -503,7 +503,7 @@
             "dynasty": "唐朝",
             "position": "将领",
             "description": "唐代著名将军，与禅宗高僧有交流。安史之乱时郭子仪带兵征讨，迫需军饷。神会不忍苍生遭劫，为筹备军费而四处奔走、声援朝廷，将所获供养金钱悉捐为军饷之用。",
-            "avatar": "img/null.png",
+            "avatar": "img/郭子仪像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -513,7 +513,7 @@
             "dynasty": "唐朝",
             "position": "将领",
             "description": "唐代著名将军，与禅宗高僧有交流。在安史之乱期间曾与青原行思交流佛法，借鉴禅宗思想以安抚军心。",
-            "avatar": "img/null.png",
+            "avatar": "img/李光弼像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -523,7 +523,7 @@
             "dynasty": "唐朝",
             "position": "将领",
             "description": "唐代著名将军，与神秀禅师有过交流，神秀的教义对薛仁贵的思想和行动产生了影响。",
-            "avatar": "img/null.png",
+            "avatar": "img/薛仁贵像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -543,7 +543,7 @@
             "dynasty": "唐朝",
             "position": "将领",
             "description": "唐代著名将军，与禅宗高僧有交流，受到玄奘法师思想影响。",
-            "avatar": "img/null.png",
+            "avatar": "img/程咬金像.png",
             "itemStyle": {"color":"#CBCBB0"}
           },
           { 
@@ -553,7 +553,7 @@
             "dynasty": "唐朝",
             "position": "画家",
             "description": "被誉为“画圣”的吴道子，其作品中有大量佛教题材，特别擅长画佛像和佛教故事，对禅宗艺术有着深远的影响。吴道子以佛教题材壁画闻名，他在洛阳龙门石窟创作的《维摩诘变》，描绘了维摩诘与文殊菩萨的对话场景，这部作品表现出浓厚的禅宗思想，被后世称为“禅画的典范”。",
-            "avatar": "img/null.png",
+            "avatar": "img/吴道子像.png",
             "itemStyle": {"color":"#CBCBB0"}
         },
         { 
@@ -573,7 +573,7 @@
             "dynasty": "唐朝",
             "position": "画家",
             "description": "贯休是五代前蜀禅僧，他的罗汉像梵相奇古、笔法野拙，他自谓“得之于梦中”（《宣和画谱》）。贯休也是诗僧。这里录他的《梦游仙四首》：“梦到海中山，入个白银宅；逢见一道士，称是李八伯。三四仙女儿，身著瑟瑟衣；手把明月珠，打落金色梨。车渠地无尘，行至瑶池滨；森森椿树下，白龙来嗅人。宫殿峥嵘笼紫气，金渠玉砂五色水；守阍仙婢相倚睡，偷摘蟠桃几倒地。”",
-            "avatar": "img/null.png",
+            "avatar": "img/贯休像.png",
             "itemStyle": {"color":"#CBCBB0"}
         }
         ]
